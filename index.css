@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 211, 232);
+    height: 100vh;
+    width: 100vw;
+}
+
+.app .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.app .container .timer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    font-family: inherit;
+    font-size: 70px;
+    font-weight: bold;
+    color: darkgray;
+    text-shadow: 0 2px 2px 0 rgba(80, 80, 80, 0.3);
+}
+
+.app .container .timer *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #e74c3c;
+    border-radius: 10px;
+    color: aliceblue;
+    height: 120px;
+    width: 120px;
+}
+
+
+.app .container .buttons .start-stop{
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: inherit;
+    border: 2px solid #2ECC71;
+    color: #2ECC71;
+    background: none;
+}
+
+.app .container .buttons .start-stop:hover{
+    color:white;
+    background: #2ECC71;
+    transition : ease-in-out 0.3s
+}
+
+
+.app .container .buttons .reset{
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: inherit;
+    border: 2px solid #E67E22;
+    color: #E67E22;
+    background: none;
+}
+
+.app .container .buttons .reset:hover{
+    color: white;
+    background: #E67E22;
+    transition: ease-in-out 0.3s;
+}
+
+
+
